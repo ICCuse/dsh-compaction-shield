@@ -1,0 +1,7 @@
+# dsh-compaction-shield bundle patch: one insert over the profile root.
+- insert:
+    - id: compaction-shield
+      name: 'dsh-compaction-shield'
+      config:
+        maxAnchors: 6
+        minAnchorLength: 6
